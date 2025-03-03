@@ -25,8 +25,8 @@ router.delete('/delete/:id',deletebooks)
 router.post('/createuser',createUser)
 router.get('/getuser',getuser)
 router.get('/getuser/:id',getuserid)
-router.put('/update/:id',updateUser)
-router.delete('/delete:id',deleteUser)
+router.put('/updateuser/:id',updateUser)
+router.delete('/deleteuser/:id',deleteUser)
 
 
 module.exports=router
